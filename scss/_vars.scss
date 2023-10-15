@@ -1,0 +1,24 @@
+$containerWidth: 1170px;
+
+:root {
+    --font-family-popins: 'Poppins-s'; 
+    --blue: #3A4574;
+    --gold: #D3B47F;
+    --gray: #808080;
+    --color-black: #000;
+    --border-color: #CCCCCC;
+    --color-white: #fff;
+}
+
+@mixin grid($col, $row) {
+    display: grid;
+    grid-template-columns: $col;
+    grid-template-rows: $row;
+}
+
+@mixin flex($dir, $al, $js) {
+    display: flex;
+    flex-direction: $dir;
+    align-items: $al;
+    justify-content: $js;
+}

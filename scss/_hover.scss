@@ -1,0 +1,32 @@
+@media (min-width: 1000px) {
+    .btn:hover {
+        box-shadow: 1px 1px 5px var(--blue);
+    }
+
+    .top-page__link:hover {
+        background-color: #fff;
+        color: var(--blue);
+    }
+
+    .reviews-button-prev:hover,
+    .reviews-button-next:hover,
+    .photos-button-next:hover,
+    .photos-button-prev:hover {
+        svg path {
+            stroke: var(--gold);
+        }
+    }
+
+    .footer__link:hover {
+        background-color: #000;
+        color: white;
+    }
+
+    .header__link:hover {
+        text-shadow: 0 0 .9px #fff, 0 0 .9px #fff;
+    }
+
+    .header__phone:hover {
+        opacity: .85;
+    }
+}

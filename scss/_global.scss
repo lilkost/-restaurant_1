@@ -1,0 +1,43 @@
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: var(--font-family-popins);
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.footer {
+	flex: 0 0 auto;
+}
+
+.container {
+	max-width: $containerWidth;
+	margin: 0 auto;
+	// padding: 0 15px;
+}
+
+button,
+a {
+	cursor: pointer;
+}
+
+@layer default {
+	.btn {
+		background-color: var(--blue);
+		color: var(--color-white);
+		border: none;
+		outline: none;
+		transition: all .3s ease;
+	}
+}
